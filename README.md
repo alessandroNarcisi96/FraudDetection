@@ -5,7 +5,7 @@ Fraud detection is the process of recognizing and preventing unauthorized or ill
 
 ## Learning Goal
 The goal of this project is not to find the best model but to show a way to deal with a dataset extremey unbalanced.<br/>
-Infact as shown in the picture below only the 0.001% are actually fraud transactions.<br/>
+Infact as shown in the picture in Milestone 1 only the 0.001% are actually fraud transactions.<br/>
 
 In this project I will show how to apply resampling to improve the model and how to use cross validation to ensure reliable performance.<br/>
 Finally I will discuss the metrics to evaluate the performance score.<br/>
