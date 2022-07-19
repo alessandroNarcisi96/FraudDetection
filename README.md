@@ -14,10 +14,10 @@ Finally I will discuss the metrics to evaluate the performance score.<br/>
 The dataset is provided by Kaggle.
 It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, ... V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.<br/>
 
-The picture below shows the proportion between not-fraud and fraud transaction.<br/>
+The picture below shows the proportion between not-fraud and fraud transactions.<br/>
 ![alt text](https://github.com/alessandroNarcisi96/FraudDetection/blob/master/images/piechart.png)<br/>
 
-As we can see we have just a fews example in comparison with not-fraud transaction.<br/>
+As we can see we have just a fews example in comparison with not-fraud transactions.<br/>
 This is a bit tricky for a model as it needs examples to find patterns.<br/>
 In Milestone 3 we will the discuss which tecniques to use with this kind of dataframe.<br/>
 
@@ -49,7 +49,7 @@ The following examples show scatterplots in order to see the distribuition of th
 
 As visible it is difficult building clusters around the datapoints.<br/>
 A good choice could be go for oversampling trying to stick with the original fraud transactions.<br/>
-A libray that suits very well to our needs is BorderlineSMOTE.<br/>
+A library that suits very well to our needs is BorderlineSMOTE.<br/>
 it allows to tune the percentage of resampling.<br/>
 For example with 0.05 with get the following result:<br/>
 ![alt text](https://github.com/alessandroNarcisi96/FraudDetection/blob/master/images/scatter_1_res.png)<br/>
@@ -80,7 +80,7 @@ It is useful because this kind of mean will be closer to the lowest number.<br/>
 So let's say our model says "It is a fraud,run to check!"<br/>
 With precision we can see how believable it is this warning.<br/>
 
-Recall is essential as it shows how many fraud transaction we are able to catch.<br/>
+Recall is essential as it shows how many fraud transactions we are able to catch.<br/>
 
 ### Precision-Recall Trade-Off
 
