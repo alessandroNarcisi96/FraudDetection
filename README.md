@@ -4,11 +4,11 @@
 Fraud detection is the process of recognizing and preventing unauthorized or illegal activities or transactions. Fraud detection leverages machine learning, statistical analysis, and behavioral monitoring to identify activities, patterns or other characteristics that signal fraud.
 
 ## Learning Goal
-The goal of this project is not to find the best model but to show a way to deal with a dataset extremey unbalanced.\
-Infact as shown in the picture below only the 0.001% are actually fraud transactions.\
+The goal of this project is not to find the best model but to show a way to deal with a dataset extremey unbalanced.<br/>
+Infact as shown in the picture below only the 0.001% are actually fraud transactions.<br/>
 
-In this project I will show how to apply resampling to improve the model and how to use cross validation to ensure reliable performance.\
-Finally I will discuss the metrics to evaluate the performance score.\
+In this project I will show how to apply resampling to improve the model and how to use cross validation to ensure reliable performance.<br/>
+Finally I will discuss the metrics to evaluate the performance score.<br/>
 
 ## Milestone 1: EDA
 The dataset is provided by Kaggle.
