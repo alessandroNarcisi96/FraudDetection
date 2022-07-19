@@ -60,7 +60,9 @@ For example with 0.05 with get the following result:<br/>
 Another complex problem to solve is how to make sure we get reliable results as we have just a few example for fraud detections.<br/>
 As visible in resampling_helper.py I use StratifiedKFold.<br/>
 What is that?<br/>
-According to the documentation of sklearn(https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html) this cross-validation is a variation of KFold that returns stratified folds. The folds are made by preserving the percentage of samples for each class.<br/>
+According to the documentation of sklearn<br/>
+(https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html) <br/>
+this cross-validation is a variation of KFold that returns stratified folds. The folds are made by preserving the percentage of samples for each class.<br/>
 
 In this way we can assume that the result will be more similar to what we will get in testing.<br/>
 
