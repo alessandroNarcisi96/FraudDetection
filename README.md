@@ -38,7 +38,7 @@ The second one is the GaussianNB and as we can see it performs quite poorly:<br/
 Oversampling and Under sampling are techniques used in data analytics to modify the unequal data classes to create balanced data sets as widely known as re-sample as well. <br/>
 The question most frequently thrown is, when do we need to use over-sampling over under-sampling or vice versa?<br/>
 
-Under sampling is a bit risky as we are going to remove some examples that could be useful and meaningfull.<br/>
+Under sampling is a bit risky as we are going to remove some examples that could be useful and meaningful.<br/>
 This is true especially when the examples are quite spared.<br/>
 Let's get a general idea about our situation.<br/>
 The following examples show scatterplots in order to see the distribuition of the two classes:<br/>
@@ -57,7 +57,7 @@ For example with 0.05 with get the following result:<br/>
 ![alt text](https://github.com/alessandroNarcisi96/FraudDetection/blob/master/images/scatter_3_res.png)<br/>
 
 ## Milestone 4: Cross Validation
-Another complex problem to solve is how to make sure we get reliable results as we have just a few example for fraud detections.<br/>
+Another complex problem to solve is how to make sure we get reliable results as we have just a few examples for fraud detections.<br/>
 As visible in resampling_helper.py I use StratifiedKFold.<br/>
 What is that?<br/>
 According to the documentation of sklearn<br/>
